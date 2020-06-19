@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+            <link
   rel="stylesheet"
   href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
@@ -46,4 +49,16 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.toggle').click(function(){
+      $('.toggle').toggleClass('active')
+      $('.overlay').toggleClass('active')
+      $('.menu').toggleClass('active')
+    })
+  })
+
+  </script>
 </html>

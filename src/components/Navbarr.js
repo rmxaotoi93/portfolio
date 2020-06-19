@@ -9,9 +9,11 @@ export class Navbarr extends Component {
     render() {
         return (
             <div>
-
+<div className="toggle"></div>
+<div className="overlay"></div>
+<div className="menu">
 <nav className="nav" id="navbar" >
-        <div className="nav-content">
+        <div className="nav-content ">
         
           <ul className="nav-items">
             <li className="nav-item">
@@ -85,6 +87,8 @@ export class Navbarr extends Component {
           </ul>
         </div>
       </nav>
+</div>
+
             </div>
         )
     }

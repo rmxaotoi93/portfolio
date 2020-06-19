@@ -12,7 +12,7 @@ function App() {
 
       <Navbarr />
       <div className="intro">
-        <h1>Ti's Portfolio</h1>
+        <h1>LE TI</h1>
         <h3 >Fullstack Web Developer</h3>
       </div>
       <div className="dot">
@@ -45,21 +45,7 @@ function App() {
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <div id="section1">
-              <h1 style={{marginTop:-100}}>Experience</h1>
-              <div className="bar"></div>
-              <div className="edu">
-                <div className="title">
-                  <h3>agriculture sector</h3>
-                  <p>Experienced of trade seeds and supporting devices in agriculture field, that prevent illness and insect infestation for the plant during plant growth</p>
-                </div>
-              </div>
-            </div>
-          </Col>
-        </Row>
-
+      
         <Row>
           <Col>
             <Skills />
