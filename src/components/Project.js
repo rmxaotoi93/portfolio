@@ -13,6 +13,7 @@ export class Project extends Component {
                 <Carousel>
   <Carousel.Item>
     <img
+    
       alt="321"
       className="d-block w-100"
       src={logo}
