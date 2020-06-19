@@ -13,6 +13,7 @@ export class Project extends Component {
                 <Carousel>
   <Carousel.Item>
     <img
+      alt="321"
       className="d-block w-100"
       src={logo}
       alt="First slide"
@@ -26,6 +27,7 @@ export class Project extends Component {
   </Carousel.Item>
   <Carousel.Item>
     <img
+      alt="321"
       className="d-block w-100"
       src={weather}
         alt="Third slide"
@@ -39,6 +41,7 @@ export class Project extends Component {
   </Carousel.Item>
   <Carousel.Item>
     <img
+      alt="321"
       className="d-block w-100"
       src={movie}
             alt="Third slide"
@@ -52,6 +55,7 @@ export class Project extends Component {
   </Carousel.Item>
   <Carousel.Item>
     <img
+      alt="321"
       className="d-block w-100"
       src={itviec}
             alt="Third slide"
@@ -65,6 +69,7 @@ export class Project extends Component {
   </Carousel.Item>
   <Carousel.Item>
     <img
+      alt="321"
       className="d-block w-100"
       src={itviec}
             alt="Third slide"

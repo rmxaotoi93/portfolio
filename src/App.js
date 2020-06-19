@@ -16,7 +16,7 @@ function App() {
         <h3 >Fullstack Web Developer</h3>
       </div>
       <div className="dot">
-        <img src={bear} ></img>
+        <img src={bear} alt="123"></img>
       </div>
 
 

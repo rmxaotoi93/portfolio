@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Container, Row, Col,Button } from 'react-bootstrap'
-import { FaFacebook, FaGithub, FaGoogle, FaPhone, FaEnvelope, FaAddressBook } from 'react-icons/fa'
+// import { Container, Row, Col,Button } from 'react-bootstrap'
+// import { FaFacebook, FaGithub, FaGoogle, FaPhone, FaEnvelope, FaAddressBook } from 'react-icons/fa'
 
 
 export class Contact extends Component {
